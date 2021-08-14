@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         String username, password;
+        int n1,n2;
         Scanner input = new Scanner(System.in);
         System.out.print("Kullanıcı adınız..:");
         username = input.nextLine();
@@ -14,8 +15,10 @@ public class Main {
             System.out.println("Giriş yaptınız !");
 
         }else{
-            System.out.println("Bilgileriniz yanlış.!");
-            System.out.println("İşlem bitti!");
+            System.out.println("Bilgileriniz yanlış, Şifrenizi sıfırlamak istermisiniz");
+            System.out.println("1-Evet\n2-Hayır");
+            n1= input. nextInt();
+
 
         }
 
