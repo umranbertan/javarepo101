@@ -18,7 +18,7 @@ public class Main {
         yas = input.nextInt();
 
 
-        System.out.println("Yolculuk tipini giriniz (1-->Tek yön, 2--> Çift yön)");
+        System.out.println("Yolculuk tipini giriniz (1-->Tek yön, 2--> Çift yön...)");
         n = input.nextInt();
 
         fiyat = (mesafe * 0.10);
