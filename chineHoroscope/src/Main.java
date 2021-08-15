@@ -48,6 +48,9 @@ class Main {
                     break;
                 case 11:
                     System.out.println("Çin zodyağı: Koyun");
+                    break;
+                default:
+                    System.out.println("hatali");
             }
         }else{
             System.out.println("Hatalı giriş");
