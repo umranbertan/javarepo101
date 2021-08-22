@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
         int num, prime ;
         Scanner scanner=new Scanner(System.in);
-        System.out.print(" Bir sayi giriniz!!! : ");
+        System.out.print(" Bir sayi giriniz!: ");
         num= scanner.nextInt();
 
         prime=isPrime(num,num/2);
@@ -24,7 +24,7 @@ public class Main {
         if (prime==1){
             System.out.println(num+" sayisi asaldir");
         }else {
-            System.out.println(num+" sayisi asal değildir...");
+            System.out.println(num+" sayisi asal değildir");
         }
     }
 
